@@ -1,15 +1,18 @@
-# anima-qa-teste
-
-1-Passo:
-De um git clone no projeto
-
-2-Passo:
-Depois entre na pasta anima_qa_teste/tests e rode o comando:
+## anima-qa-teste
+ 
+### Pré-requisitos do pprojeto
+* Instalar Ruby e o DevKit 
+* Instalar o Bundler e executá-lo
+``` 
+gem install bundler
+```
+O comando abaixo deve ser executado na raiz do projeto na pasta anima_qa_teste/tests.
+``` 
 bundle install
-
-3-Passo:
-Para rodar o projeto basta usar o comando:
-
+```
+### Execução
+* Comando para execução dos testes
+``` 
 cucumber
-
+``` 
 Abraços!
